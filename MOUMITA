@@ -1,0 +1,11 @@
+# Patient-Ventilator Asynchrony (PVA) Detection Engine
+
+This repository contains a Google Colab-based framework for simulating mechanical ventilation and detecting asynchronies.
+
+## Features
+- *Simulation:* Uses the Equation of Motion to generate Flow and Pressure waveforms.
+- *Asynchrony Injection:* Supports Ineffective Triggering and Double Triggering simulations.
+- *Detection Algorithm:* Automatically identifies 'dips' in expiratory pressure indicative of patient effort.
+
+## How to Run
+Click the 'Open in Colab' badge inside the notebook to run the simulation and view the detection plots.
